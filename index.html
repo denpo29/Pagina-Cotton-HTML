@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--En esta línea se informa al navegador si estamos en un dispositivo móvil (celular, tableta)-->
+    <meta name="viewport" content="width=device-width, minmum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>Cotton SP</title>
+    <!--Estilos de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--Hoja de estilos propia-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Tipografía de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Aquí se define el header de la página-->
+    <header>
+        <!--En este div container irán las columnas del header (logo a la izquierda, menú de navegación a la derecha)-->
+        <div class="container">
+            <!--Se define una fila donde irán las tres columnas, esta se fija arriba (top)-->
+            <div class="row top">
+                <!--Primer columna-->
+                <div class="col-md-3"><a href="#home" data-ancla="home" class="off">
+                    <img  src="images/small-logo.png" alt="Logo" class="Logo"></a>
+                    <img src="images/LOGO02-700X150.png" alt="Cotton-sp" class="Cotton">
+                </div>
+                <!--Columna del medio-->
+                <div class="col-md-3"></div>
+                <!--Tercer columna, aquí irá el menú de navegación de la página-->
+                <div class="col-md-6">
+                    <ul class="menu">
+                        <li><a href="#nosotros" data-ancla="nosotros">Quienes somos</a></li>
+                        <li><a href="#servicios" data-ancla="servicios">Servicios</a></li>
+                        <li><a href="#equipo" data-ancla="equipo">El equipo</a></li>
+                        <li><a href="#marcas" data-ancla="marcas">Marcas que confían</a></li>
+                        <li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    </header>
+
+<!--Sección Principal o Home-->
+    <div class="principal vertical-centered-text" id="home">
+        <div class="col-md-8-cta">
+            <h1 class="tlt-1"> COTTON SP</h1>
+            <h4 class="tlt-2"> Software Factory</h4>
+            <br>
+            <p class="txt-1">Empresa joven del centro chaqueño, impulsados por la innovación y el desarrollo de soluciones para nuestros clientes.
+            </p>
+        </div>
+    </div>
+
+
+<!--Sección Nosotros. Aquí se usaron las tarjetas de bootstrap-->
+
+    <div class="nosotros" id="nosotros">
+
+        <h1 class="tlt-3">Quienes Somos</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+
+              <div class="card bg-transparent border-light">
+
+                <img src="images/63feb5d78544d856d7f2c310_lead-software-development-team.jpg" class="card-img-top" alt="imagen">
+
+                <div class="card-body">
+
+                  <h5 class="card-title">Nosotros</h5>
+
+                  <p class="card-text">Somos una empresa joven del centro chaqueño, impulsados a desarrollar soluciones innovadoras para nuestros clientes.
+                    Somos únicos, con un equipo heteogéneo y de variado talento que perseguimos una meta común: hacer lo que nos apasiona y potenciar yu negocio de la mano de la innovación tecnológica. 
+                    Venimos a implementar una verdadera transformación digital.
+                  </p>
+
+                <a href="#home" class="btn btn-success">Inicio</a>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col">
+
+              <div class="card bg-transparent border-light">
+
+                <img src="images/kundenzufriedenheitsumfrage-bei-wipotec.jpg" class="card-img-top" alt="...">
+
+                <div class="card-body">
+
+                  <h5 class="card-title">Misión/Visión</h5>
+
+                  <p class="card-text">Nuestra misión es simplificar el trabajo de nuestros clientes a través de soluciones de software innovadoras.
+                Queremos ser reconocidos como el proveedor líder en soluciones de software de la región. Mantenemos una cultura de excelencia y mejora continua.
+                Nos enfocamos en atraer y fidelizar el mejor talento con el fin de ofrecer productos y servicios innovadores.
+                  </p>
+
+            <a href="#home" class="btn btn-success">Inicio</a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col">
+
+              <div class="card bg-transparent border-light">
+
+                <img src="images/Technology-Can-Boost-Your-Business-Productivity.jpg" class="card-img-top" alt="...">
+
+                <div class="card-body">
+
+                  <h5 class="card-title">Propósito</h5>
+
+                  <p class="card-text">Queremos generar igualdad de oportuninades, a través del acceso a la tecnología, el aprendizaje y práctica del conocimiento tecnológico. Abrimos las puertas a aquellos que fueron excluidos del sector.
+                    Nos enfocamos en alcanzar una meta común: convertirnos en un equipo sólido apostando por un futuro más inclusivo, disminuyendo la brecha digital y educativa que impera en la actualidad.
+                  </p>
+
+                <a href="#home" class="btn btn-success">Inicio</a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            </div>
+
+    </div>
+
+
+
+<!--Sección de servicios. Aquí se uno el card-group de bootstrap-->
+
+    <div class="servicios" id="servicios">
+
+        <h1>Servicios</h1>
+
+        <div class="card-group">
+
+            <div class="card bg-dark border-light">
+
+                <div class="card-header">DISEÑO Y DESARROLLO WEB</div>
+
+                <div class="card-body">
+                    <p class="card-text">Diseño Web a medida para que
+                        la imagen de tu negocio sea
+                        única.
+                        Sitio Web Responsive.</p>
+
+                        <a href="#contacto" class="btn btn-success" id="boton-1">Más información</a>
+
+                </div>
+
+            </div>
+
+            <div class="card bg-dark border-light">
+
+                <div class="card-header">MAQUETADO Y DESARROLLO
+                    PARA AGENCIAS</div>
+
+                <div class="card-body">
+
+                    <p class="card-text">Formamos equipos con agencias
+                        para llevar a cabo desarrollos y 
+                        maquetados de sitios web y
+                        tiendas online.</p>
+
+                        <a href="#contacto" class="btn btn-success" id="boton-2">Más información</a>
+
+                </div>
+
+            </div>
+
+            <div class="card bg-dark border-light">
+
+                <div class="card-header">SOPORTE Y MANTENIMIENTO</div>
+
+                <div class="card-body">
+
+                    <p class="card-text">Brindamos el servicio de 
+                        actualización y mantenimiento
+                        de los sitios.</p>
+
+                        <a href="#contacto" class="btn btn-success" id="boton-3">Más información</a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+<!--Esta es la sección del equipo de la empresa. Las imagenes se mueven usando el carrusel de bootstrap-->
+    <div class="equipo" id="equipo">
+
+        <h1>El Equipo</h1>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="images/persona-1.jpg" class="d-block w-100" alt="persona 1">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/persona-2.jpg" class="d-block w-100" alt="persona 2">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/persona-3.jpg" class="d-block w-100" alt="persona 3">
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+
+    </div>
+
+
+
+<!--Aquí va la sección de marcas que confiaron en la empresa. La sección está dividida en dos filas con 3 columnas cada una.-->
+    <div class="marcas" id="marcas">
+
+        <div class="container">
+
+            <h1>Empresas que confiaron</h1>
+
+            <br>
+
+            <br>
+
+            <div class="row" id="Fila-1">
+
+              <div class="col-4">
+
+            <img src="images/Google-White-Logo.png" alt="Google">
+
+          </div>
+
+          <div class="col-4">
+
+            <img src="images/HSBC.svg.png" alt="HSBC">
+
+          </div>
+
+          <div class="col-4">
+
+            <img src="images/Natura White Logo.png" alt="Natura">
+
+          </div>
+
+          </div>
+
+          <div class="row" id="Fila-2">
+
+          <div class="col-4">
+
+            <img src="images/rolex-logo-png-transparent-6.png" alt="Rolex">
+
+          </div>
+
+          <div class="col-4">
+
+            <img src="images/logo-icbc.png" alt="ICBC">
+
+          </div>
+
+          <div class="col-4">
+
+            <img src="images/Mastercard-logo.svg.png" alt="MasterCard">
+
+          </div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="contacto" id="contacto">
+
+      <div class="row">
+
+        <div class="col-md-12">
+
+              <h1>Contacto</h1>
+
+              <br>
+
+              <br>
+
+        </div>
+
+      </div>
+      <div class="row logos">
+
+        <div class="col-2"></div>
+
+        <div class="col-2">
+
+          <img src="images/004-address.png" alt="Adress">
+          <p class="direccion">Juan Manuel de Estrada 71 Pcia. R. Sáenz Peña. Chaco</p>
+
+      </div>
+
+        <div class="col-2">
+
+            <a href="https://instagram.com/cottonspsf?igshid=YmMyMTA2M2Y=" target="_blank"><img src="images/003-instagram.png" alt="Instagram"></a>
+
+        </div>
+
+        <div class="col-2">
+
+          <a href="mailto:admin@cottonsp.com.ar"><img src="images/002-email.png" alt="Email"></a>
+
+        </div>
+
+        <div class="col-2">
+
+          <a href="https://api.whatsapp.com/send?phone=93644641039"  target="_blank"><img src="images/001-phone.png" alt="Phone"></a>
+  
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+
+
+
+    <footer>
+
+      <div class="container text-center">
+
+        <div class="row">
+
+          <div class="col-3">
+
+            &copy; Cotton SP Software Factory
+
+          </div>
+
+          <div class="col-4">
+
+          </div>
+
+          <div class="col-5">
+
+            La primer Software Factory de nuestra ciudad
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+
+src="https://code.jquery.com/jquery-2.2.4.min.js"
+
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+
+crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<script>
+// A $( document ).ready() block.
+
+$(document).ready(function() {  
+
+$('.top a').click(function(e){
+
+      e.preventDefault();
+
+      var offset = $($(this).attr('href')).offset().top;
+
+      $('html, body').animate({scrollTop:offset}, 600);
+
+      return false;
+
+  });
+
+});
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+header{
+	background: #1A4D2E; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+body{
+    background: 000000;
+    font-family: 'Outfit', sans-serif;
+}
+.col-md-4 {
+    display: flex;
+    justify-content:start;
+}
+
+.Logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+}
+
+.Cotton {
+    margin-top: 10px;
+    width: 110px;
+    height: 30px;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+.principal {
+    height: 40vw;
+    background: url(../images/web-designer-trabalhando.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.vertical-centered-text {
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+     /* alineacion horizontal */
+    justify-content: center;
+}
+
+.tlt-1 {
+    color: white;
+    font-weight: 600;
+    font-size: 80px;
+    text-shadow:2px 2px black;
+    text-align: center;
+}
+
+.tlt-2 {
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    text-align: center;   
+}
+
+.txt-1 {
+    font-weight: 400;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.nosotros {
+    padding: 30px;
+}
+
+.tlt-3 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.nosotros .card-title {
+    color: white;
+    text-align: center;
+}
+
+.nosotros .card-text {
+    color: white;
+    text-align: left;
+}
+.card-img-top {
+    width: 371px;
+    height: 150px;
+}
+
+.servicios {
+    height: 40vw;
+    background: url(../images/para-innovar.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.servicios h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px black;
+}
+
+.card-header {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.card-text {
+    text-align: left;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card-group {
+    margin: 20px;
+}
+
+#boton-1, #boton-2, #boton-3 {
+    display: flex;
+    justify-content: center;
+}
+
+#boton-1, #boton-3 {
+    margin-top: 40px;
+}
+
+.equipo {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.marcas {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    height: 60vh;
+    text-shadow: 2px 2px black;
+}
+
+.marcas #Fila-1 {
+    position: relative;
+    bottom: 140px;
+}
+
+.marcas #Fila-2 {
+    position: relative;
+    bottom: 100px;
+}
+
+.marcas img {
+    width: 180px;
+    height: 75px;
+}
+
+.contacto {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px black;
+    background-color:gray;
+    height: 60vh;
+	padding-top: 10px;
+}
+
+.logos{
+    text-align: center;
+
+}
+
+.logos img  {
+    width: 30%;
+    position: relative;
+    bottom: 150px;
+}
+
+.col-2 .direccion {
+    font-size: 14px;
+    text-align: center;
+    justify-self: center;
+    position: relative;
+    bottom: 140px;
+}
+
+footer {
+    background-color: #1A4D2E;
+    height: 10vh;
+    padding-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.cta {
+    text-align: center;
+}
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+    @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+        /* iPhone only */
+        /* Styles */
+        .off {
+            display: none !important;
+        }
+        .on {
+            display: block !important;
+        }
+        .col-md-2 {
+            width: 100%;
+        }
+        .social img{
+            width: 100%;
+        }
+        .botonera li a {
+            font-size: 13px;
+        }
+        .nosotros{
+            height: 400px;
+            overflow: hidden;
+            padding-top: 15px;
+        }
+        #home{
+            padding-top: 65px;
+        }
+
+        h1{
+            font-size: 30px;
+        }
+
+        footer{
+            padding-top: 10px;
+        }
+
+        }
